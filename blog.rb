@@ -20,10 +20,10 @@ class Blog
 
 	def publish(all_posts)
 		all_posts.each do |blog_post|
-			puts BlogPost.title
-			puts BlogPost.created_at_time
-			puts BlogPost.author
-			puts BlogPost.text
+			puts blog_post.title
+			puts blog_post.created_at_time
+			puts blog_post.author
+			puts blog_post.text
 		end
 	end
 end
@@ -42,10 +42,21 @@ class BlogPost
 		puts "Blog Post Text:"
 		@text = gets.chomp
 	end
+
+	def create_content
+		puts "Title"
+		@title = gets.chomp
+
+		puts "Author"
+		@author = gets.chomp
+
+		puts "Post"
+		@text = gets.chomp
+	end
 end
 
-blog_post = BlogPost.new
-a_blog_post = blog_post.create_post
-all_blog_posts = blog_post.compile_blog_posts
-puts blog.inspect
-blog_post.publish(all_blog_posts)
+the_blog = Blog.new
+a_blog_post = the_blog.create_post
+all_posts = the_blog.compile_posts
+puts the_blog.inspect
+the_blog.publish(all_posts)
