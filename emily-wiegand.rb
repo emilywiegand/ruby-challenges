@@ -18,6 +18,7 @@ class Star_Wars_Character
 
 end
 
+<<<<<<< HEAD
 class MonCalamari < Star_Wars_Character
 
 	def outburst
@@ -26,12 +27,15 @@ class MonCalamari < Star_Wars_Character
 
 end
 
+=======
+>>>>>>> d4cae002bee08e5b2d7191ed23be2d08df82b1e1
 class Princess < Star_Wars_Character
 
 	def plea
 		return "Help me, Obi-Wan Kenobi, you're my only hope!"
 	end
 
+<<<<<<< HEAD
 end
 
 class Jedi < Star_Wars_Character
@@ -103,12 +107,15 @@ calamariname = this_calamari.get_name
 this_calamari.set_job = "Military Commander of the Rebel Alliance"
 calamarijob = this_calamari.get_job
 
+=======
+>>>>>>> d4cae002bee08e5b2d7191ed23be2d08df82b1e1
 badass_princess = Princess.new
 badass_princess.set_name = "Leia"
 princessname = badass_princess.get_name
 badass_princess.set_job = "Princess of Alderaan"
 princessjob = badass_princess.get_job
 
+<<<<<<< HEAD
 jedi_ben = Jedi.new
 jedi_ben.set_name = "Obi-Wan Kenobi"
 jediname = jedi_ben.get_name
@@ -186,3 +193,8 @@ puts the_hutt.inspect
 puts small_droid.inspect
 puts shiny_droid.inspect
 puts chewie_wookie.inspect
+=======
+puts "#{princessname}, #{princessjob}, says '#{badass_princess.plea}'"
+
+puts badass_princess.inspect
+>>>>>>> d4cae002bee08e5b2d7191ed23be2d08df82b1e1
