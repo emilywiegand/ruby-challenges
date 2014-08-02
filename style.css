@@ -383,3 +383,37 @@ font-weight: bold;
     margin: 0px auto;
     
 }
+
+
+/** Emily Wiegand's Advice Style Sheet **/
+
+.emilywiegand-advice body {
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	background: white;
+    margin: auto;
+}
+
+.emilywiegand-advice h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 65px;
+	color: OrangeRed;
+	padding: 20px;
+}
+
+.emilywiegand-advice h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	color: OrangeRed;
+	padding: 20px;
+}
+
+.emilywiegand-advice p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	color: OrangeRed;
+	padding: 20px;
+}
