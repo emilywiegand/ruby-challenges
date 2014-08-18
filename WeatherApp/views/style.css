@@ -1,0 +1,39 @@
+body{ font-weight: bold;
+	color: #606060;
+	font-family: sans-serif;
+	text-align: center;
+	}
+
+#text {padding-top: 250px;}
+
+
+#cloudy {
+height: 645px;
+width: 1175px;
+background-image: url(cloudy.png);
+}
+
+#home { 
+height: 645px;
+width: 1175px;
+background: url(map.png);}
+
+#rainy {
+height: 645px;
+width: 1175px;
+background: url(rainy.png);}
+
+#snowy { 
+height: 645px;
+width: 1175px;
+background: url(snowy.png);}
+
+#sunny {
+height: 645px;
+width: 1175px;
+background: url(sunny.png);}
+
+#otherweather {
+height: 645px;
+width: 1175px;
+background: #00CCCC;}
